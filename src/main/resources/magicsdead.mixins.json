@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.blackfur.magicsdead.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "MagicsDead.refmap.json",
+  "mixins": [
+    "EnchantmentTableMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
